@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 
 const Contador = () => {
-    const formaturaDate = new Date('2025-12-15T00:00:00'); // Data atualizada para a formatura
+    const formaturaDate = new Date('2025-12-15T00:00:00'); 
     const [timeLeft, setTimeLeft] = useState(getTimeLeft(formaturaDate));
 
     useEffect(() => {
         const timer = setInterval(() => {
             setTimeLeft(getTimeLeft(formaturaDate));
         }, 1000);
-        return () => clearInterval(timer); // Limpa o intervalo quando o componente for desmontado
+        return () => clearInterval(timer); 
     }, [formaturaDate]);
 
     function getTimeLeft(targetDate) {

@@ -4,56 +4,55 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e9ecef; /* Cor de fundo fallback */
+    background-color: #e9ecef; 
     color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full height */
+    height: 100vh;
     text-align: center;
-    background-image: url('./assets/fundolaranja.jpg'); /* Caminho para a imagem local na pasta assets */
-    background-size: cover; /* Garante que a imagem cubra toda a tela */
-    background-position: center; /* Centraliza a imagem */
-    filter: blur(0); /* Se você não quiser blur no fundo, remova esse filtro */
+    background-image: url('./assets/fundolaranja.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    filter: blur(0); 
 }
 
-/* Restante do código CSS do contador */
+
 
 .App {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente para destacar o conteúdo */
+    background: rgba(255, 255, 255, 0.8); 
     border-radius: 10px;
     padding: 30px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Efeito blur no cabeçalho */
+
 .app-header {
-    background-color: rgba(255, 255, 255, 0.7); /* Fundo branco com opacidade */
     color: #333;
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
-    backdrop-filter: blur(5px); /* Efeito blur */
-    font-family: 'Roboto', sans-serif; /* Fonte mais moderna */
+    backdrop-filter: blur(5px); 
+    font-family: 'Roboto', sans-serif; 
 }
 
 h1 {
     font-size: 36px;
     margin: 0;
-    color: #343a40; /* Cor de texto mais escura */
+    color: #343a40;
 }
 
 p {
     font-size: 18px;
     margin-top: 10px;
-    color: #495057; /* Cor de texto secundária */
+    color: #495057; 
 }
 
-/* Estilo do contador de relógio */
+
 .contador {
     display: flex;
     justify-content: center;
@@ -79,17 +78,17 @@ p {
 }
 
 .time {
-    font-size: 60px; /* Aumentando o tamanho dos números */
+    font-size: 60px; 
     font-weight: bold;
-    color: #FF6F61; /* Cor de destaque: coral */
+    color: #FF6F61; 
 }
 
 .label {
     font-size: 18px;
-    color: #6c757d; /* Cor mais suave para os rótulos */
+    color: #6c757d; 
 }
 
-/* Quando o contador chegar a 0 */
+
 h2 {
     font-size: 28px;
     color: #343a40;
@@ -97,7 +96,6 @@ h2 {
 }
 
 
-/* Responsividade */
 @media (max-width: 768px) {
     .app-header h1 {
         font-size: 28px;

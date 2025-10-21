@@ -1,5 +1,5 @@
 import React from 'react';
-import Contador from './Components/Contador'; // Importando o componente de contagem
+import Contador from './Components/Contador'; 
 import './App.css'; 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
                   Formatura 2025</h1>
                 <p>Contagem regressiva para o grande dia!</p>
             </header>
-            <Contador /> {/* Componente de contagem regressiva */}
+            <Contador /> 
         </div>
     );
 }
